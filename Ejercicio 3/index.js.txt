@@ -1,0 +1,21 @@
+//Farenheit
+
+var cel, fare;
+
+cel= parseFloat(prompt("Ingrese grados Celsius"));
+
+fare=(9/5 * cel) +32;
+
+console.log(cel + "Celsius equivalen a "+fare+" Farenheit");
+
+
+
+//Kelvin
+
+var cel, kel;
+
+cel= parseFloat(prompt("Ingrese grados Celsius"));
+
+kel=(cel + 273.15);
+
+console.log(cel +"Celsius equivalen a "+kel+ "Kelvin");

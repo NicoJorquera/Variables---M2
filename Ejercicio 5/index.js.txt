@@ -1,0 +1,15 @@
+var a = parseFloat(prompt(" EJERCICIO 5 \n\n Ingrese 5 numeros; \n Numero 1"));
+var b = parseFloat(prompt("Numero 2"));
+var c = parseFloat(prompt("Numero 3"));
+var d = parseFloat(prompt("Numero 4"));
+var e = parseFloat(prompt("Numero 5"));
+var suma,promedio;
+
+
+
+suma=a+b+c+d+e;
+promedio=suma/5;
+
+
+
+alert( ` Los numeros ingresos fueron ${a}, ${b}, ${c}, ${d}, ${e}. \n La Suma fue de ${suma} \n El Promedios es de ${promedio}`);
